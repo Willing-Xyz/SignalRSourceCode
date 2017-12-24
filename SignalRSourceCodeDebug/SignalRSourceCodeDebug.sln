@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRSourceCodeDebug", "SignalRSourceCodeDebug\SignalRSourceCodeDebug.csproj", "{5C8AF7FC-C14C-4336-B7B4-0F6BE90D842F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.Core", "..\SignalR-master\src\Microsoft.AspNet.SignalR.Core\Microsoft.AspNet.SignalR.Core.csproj", "{1B9A82C4-BCA1-4834-A33E-226F17BE070B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microsoft.AspNet.SignalR.SystemWeb", "..\SignalR-master\src\Microsoft.AspNet.SignalR.SystemWeb\Microsoft.AspNet.SignalR.SystemWeb.csproj", "{21407043-7991-4123-B264-4D43B97B61B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C8AF7FC-C14C-4336-B7B4-0F6BE90D842F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C8AF7FC-C14C-4336-B7B4-0F6BE90D842F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C8AF7FC-C14C-4336-B7B4-0F6BE90D842F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C8AF7FC-C14C-4336-B7B4-0F6BE90D842F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B9A82C4-BCA1-4834-A33E-226F17BE070B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B9A82C4-BCA1-4834-A33E-226F17BE070B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B9A82C4-BCA1-4834-A33E-226F17BE070B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B9A82C4-BCA1-4834-A33E-226F17BE070B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21407043-7991-4123-B264-4D43B97B61B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21407043-7991-4123-B264-4D43B97B61B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21407043-7991-4123-B264-4D43B97B61B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21407043-7991-4123-B264-4D43B97B61B7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
